@@ -25,3 +25,43 @@ contract cuentaAhhoro{
     //VerSaldo
 
 }
+
+
+pragma solidity ^0.8.0;
+
+contract SavingsAccount {
+    // Crea una estructura para almacenar la información de la persona
+    struct Person {
+        string name;
+        uint age;
+        uint balance;
+    }
+
+    mapping (address => Person) public people;
+
+    // Función para crear una persona
+    function createPerson(string memory _name, uint _age) public {
+        people[msg.sender] = Person(_name, _age, 0);
+    }
+
+    // Función para agregar saldo a la cuenta de la persona
+    function addBalance(uint _amount) public {
+        people[msg.sender].balance += _amount;
+    }
+
+    // Función para quitar saldo de la cuenta de la persona
+    function removeBalance(uint _amount) public {
+        people[msg.sender].balance -= _amount;
+    }
+
+    // Función para ver el saldo de la cuenta de la persona
+    function viewBalance() public view returns (uint) {
+        return people[msg.sender].balance;
+    }
+
+    // Función para ver los datos de la persona
+    function viewPerson() public view returns (string memory, uint, uint) {
+        Person memory person = people[msg.sender];
+        return (person.name, person.age, person.balance);
+    }
+}
