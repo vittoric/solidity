@@ -16,4 +16,17 @@ https://www.openzeppelin.com/ <br>
         ERC 721 - https://eips.ethereum.org/EIPS/eip-721   <br>
             Codigo erc 721 - https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721<br>
              <br>
-             2-20
+NFT Market https://opensea.io/ <br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
