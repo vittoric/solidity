@@ -17,7 +17,7 @@ https://www.openzeppelin.com/ <br>
             Codigo erc 721 - https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721<br>
              <br>
 NFT Market https://opensea.io/ <br>
-<br>
+https://www.pinata.cloud/<br>
 <br>
 <br>
 <br>
