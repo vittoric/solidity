@@ -18,7 +18,7 @@ https://www.openzeppelin.com/ <br>
              <br>
 NFT Market https://opensea.io/ <br>
 https://www.pinata.cloud/<br>
-<br>
+https://testnets.opensea.io/<br>
 <br>
 <br>
 
