@@ -5,6 +5,6 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract ToriCoin is ERC20 {
     constructor(uint256 _initialSupply) ERC20("ToriCoin", "TCR") {
-        _mint(msg.sender, _initialSupply);
+        _mint(msg.sender, _initialSupply*10**18);
     }
 }
