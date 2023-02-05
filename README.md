@@ -22,7 +22,7 @@ https://testnets.opensea.io/<br>
 https://rekt.news/es/<br>
 https://docs.chain.link/getting-started/conceptual-overview<br>
 
-<br>
+https://docs.chain.link/data-feeds/price-feeds/addresses<br>
 <br>
 <br>
 <br>
