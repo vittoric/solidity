@@ -4,6 +4,8 @@ pragma solidity ^0.8.7;
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
 contract PriceConsumerV3 {
+    //Insantciando un contrato de tipo AggregatorV3Interface
+    //para hacer uso de un contrato que ya esta depoyao
     AggregatorV3Interface internal priceFeed;
 
     /**
@@ -23,11 +25,11 @@ contract PriceConsumerV3 {
     function getLatestPrice() public view returns (int) {
         // prettier-ignore
         (
-            /* uint80 roundID */,
+            uint80 roundID,
             int price,
-            /*uint startedAt*/,
-            /*uint timeStamp*/,
-            /*uint80 answeredInRound*/
+            uint startedAt,
+            uint timeStamp,
+            uint80 answeredInRound
         ) = priceFeed.latestRoundData();
         return price;
     }
