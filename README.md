@@ -20,7 +20,7 @@ NFT Market https://opensea.io/ <br>
 https://www.pinata.cloud/<br>
 https://testnets.opensea.io/<br>
 https://rekt.news/es/<br>
-<br>
+https://docs.chain.link/getting-started/conceptual-overview<br>
 
 <br>
 <br>
